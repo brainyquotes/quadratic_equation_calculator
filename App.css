@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+.app--grid {
+  max-width: 1000px;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px 2px 10px 2px;
+  background-color: #2196F3;
+  padding: 50px 5px;
+}
+
+.app--grid > div {
+  width: 100%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.app--grid--item2{
+  border-left: 1px solid #fff;
+  color: #fff;
+  grid-column: 2 / span 2;
+  background-image: linear-gradient(#4dabf7,#2196f3,#4dabf7);
+}
+
+.input--grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  gap: 5px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.input--grid > div {
+  text-align: center;
+  font-size: 20px;
+}
+
+.input--grid > div > input {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.input--grid > div > button {
+  padding: 5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.input--form{
+  padding: 10px 0;
+}
+
+.input_fields{
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  padding: 6px;
+  margin: 4px;
+}
+button{
+  background-color: #14143c;
+  color: #fff;
+}
+button:hover{
+  background-color: #087f5b;
+}
+
+@media only screen and (max-width: 700px) {
+  .app--grid {
+    margin: 10px auto;
+    display: block;
+  }
+
+}
