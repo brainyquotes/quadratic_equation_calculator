@@ -1,10 +1,10 @@
 import React from 'react'
 
 /* importing components */
-import QuadraticForm from './components/QuadraticForm';
+import QuadraticForm from 'QuadraticForm';
 
 /*importing the app css file */
-import './App.css';
+import 'App.css';
 
 const App = () => {
 
